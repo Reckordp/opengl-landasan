@@ -1,0 +1,2 @@
+@echo off
+g++ -I D:/Sementara/glm-stable -I %Software%/Glew/include -I %Software%/GLFW/include KitaLihat.cpp -o hebat.exe -L %Software%/Glew/lib -L %Software%/GLFW/lib-mingw-w64 -lglew32.dll -lglfw3 -lgdi32 -lopengl32
